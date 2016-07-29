@@ -10,7 +10,7 @@ import shallowCompare from 'react-addons-shallow-compare'
 export default class InfiniteLoader extends Component {
   static propTypes = {
     /**
-     * Function respondible for rendering a virtualized component.
+     * Function responsible for rendering a virtualized component.
      * This function should implement the following signature:
      * ({ onRowsRendered, registerChild }) => PropTypes.element
      *
